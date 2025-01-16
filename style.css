@@ -1,0 +1,412 @@
+/* rest css */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+a{
+    color: #F4C26F;
+    text-decoration: none;
+}
+img{
+    width: 10%;
+}
+body{
+    overflow-x: hidden;
+}
+/* rest css */
+/* body */
+/* header */
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.body__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.header__logo {
+    width: 150px;
+}
+
+.header__burger{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    padding-right: 50px;
+    z-index: 2;
+}
+
+.stick__top {
+    width: 100%;
+    height: 6px;
+    background-color: black;
+}
+
+.stick__down {
+    width: 100%;
+    height: 6px;
+    background-color: black;
+}
+.header__menu {
+    position: fixed;
+    left: 100%;
+    top: 0%;
+    height: 100%;
+    background-color: #24FAD4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu__logo {
+    width: 25%;
+
+}
+.menu__h2 {
+
+}
+.menu__soc {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+/* header */
+/* main__JavaCof */
+/* .body__main {
+    
+} */
+
+.main__JavaCof{
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+.JavaCof__h1{
+    text-align: center;
+    font-size: 230px;
+    z-index: -2;
+}
+
+.JavaCof__text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.JavaCof__h2{
+    font-size: 50px;
+}
+
+.JavaCof__p{
+    font-size: 20px;
+}
+
+.JavaCof__button__1{
+    background-color: black;
+    color:white;
+}
+
+.JavaCof__button__2{
+    background-color: white;
+    color:black;
+}
+.JavaCof__square{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: +35%;
+    width: 450px;
+    height: 450px;
+    background-color: #24FAD4;
+    z-index: -1;
+    
+}
+.JavaCof__img{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 300px;
+    height: 500px;
+    transform: rotate(35deg);
+    
+}
+
+button{
+    font-size: 20px;
+    width: 240px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* main__JavaCof */
+/* main__des */
+.main__des {
+    padding-top: 600px;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: relative; */
+}
+.des__circle {
+    /* position: absolute;
+    left: 10%;
+    top: 70%; */
+    width: 400px;
+    height: 400px;
+    background: #B01F22;
+    border-radius: 50%;
+    z-index: -2;
+}
+.des__text {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 100px;
+}
+.des__text__h1 {
+    font-size: 50px;
+}
+.des__text__p {
+    font-size: 23px;
+    /* text-transform: uppercase; */
+}
+/* main__des */
+.main__card {
+
+}
+.polotno__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    width: 25%;
+}
+.left__h4 {
+    color: white;
+    font-size: 36px;
+}
+.left__p {
+    color: white;
+    font-size: 20px;
+}
+.left__button{
+    background-color: #24FAD4;
+    width: 220px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.polotno__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right__img {
+    width: 100%;
+
+}
+.card__otst {
+    width: 100%;
+    height: 60px;
+    background-color: #24FAD4;
+    margin-top: 100px;
+    
+}
+.card__polotno {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.main__strouke{
+    width: 100%;
+    height: 60px;
+    background-color: #DB7C2E;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.strouke__menu {
+    text-transform: uppercase;
+    
+}
+/* main__property */
+.main__property {
+    padding-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+.property__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.text__coop {
+    display: flex;
+    align-items: start;
+    width: 75%;
+    gap: 50px;
+}
+.coop__img {
+    width: 5%;
+}
+.coop__textimg{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.coop__h1 {
+
+}
+.coop__p {
+    
+    
+}
+.property__right {
+    display: flex;
+    gap: 50px;
+}
+.img_left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.img_right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-between;
+    width: 50%;
+}
+.property__img {
+    width: 100%;
+}
+/* main__property */
+.main__shop {
+    padding-top: 100px;
+}
+.shop__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.menu__h3 {
+}
+.menu__line {
+    margin-bottom: 20px;
+}
+.wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.shop__tabl {
+    background-color: aqua;
+    display: flex;
+    width: 260px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tabl__img {
+    width: 70%;
+}
+.tabl__psbt {
+}
+.tabl_h4title {
+}
+.tabl__des {
+}
+
+/* main */
+.footer__otst {
+    width: 100%;
+    height: 60px;
+    background-color: #24FAD4;
+    margin-top: 100px;
+}
+.footer__law {
+    background-color: black;
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+.law__logo {
+    width: 10%;
+}
+.law__protocol {
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.law__soc {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.soc__icon{
+    width: 100px;
+}
+/* body */
+@media(max-width: 1100px) {
+    .JavaCof__h1{
+        font-size: 150px;
+    }
+}
+@media(max-width: 1000px) {
+    .main__des{
+        padding-left: 0;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .des__circle{
+        align-self: flex-start;
+        margin-top: 100px;
+    }
+}
+@media(max-width: 900px) {
+    .main__property{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .property__img{
+        width: 50%;
+    }
+    .law__soc{
+        width: 50px;
+    }
+}
